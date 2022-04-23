@@ -74,7 +74,7 @@ Note:- Give a user details
 <b>𝙽𝙾𝚃 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴......😅</b> """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and 𝑲𝒚𝒍𝒊𝒆 𝑱𝒆𝒏𝒏𝒆𝒓  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. 𝑲𝒚𝒍𝒊𝒆 𝑱𝒆𝒏𝒏𝒆𝒓 should have admin privillage.
@@ -298,10 +298,10 @@ This module only works for my admins
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/kB9TkCs8cX0)
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/tgB1wUcmbbw)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-<code>/mp4 https://youtu.be/kB9TkCs8cX0</code>
-<code>/video https://youtu.be/kB9TkCs8cX0</code>"""
+<code>/mp4 https://youtu.be/tgB1wUcmbbw</code>
+<code>/video https://youtu.be/tgB1wUcmbbw</code>"""
 
     ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
 
@@ -320,25 +320,24 @@ This module only works for my admins
 
 ➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 
-➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
-
-𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/MultiiFliX>𝚄𝙿𝙳𝙰𝚃𝙴𝚉</a>"""
+➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨"""
 
     STICKER_TXT = """𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙸𝙳.
 • 𝐔𝐒𝐀𝐆𝐄
 To Get Sticker ID
  
-  ⭕ 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+  𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄
  
 ◉ Reply To Any Sticker [/stickerid]"""
 
     YTTHUMB_TXT = """𝙷𝙴𝙻𝙿𝚂 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝚅𝙸𝙳𝙴𝙾 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻
     
-⭕𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+   𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄
+
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-<code>/ytthumb https://youtu.be/UyzJ9KEoU0w</code>"""
+<code>/ytthumb https://youtu.be/tgB1wUcmbbw</code>"""
 
     ABOOK_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
 
