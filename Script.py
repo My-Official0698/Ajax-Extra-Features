@@ -55,7 +55,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/MWUpdatez/3 https://t.me/MWUpdatez/8</code>"""
+<code>/batch https://t.me/MarvelMovies_Cloud01/2 https://t.me/MarvelMovies_Cloud01/3</code>"""
 
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
