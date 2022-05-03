@@ -11,7 +11,6 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 ALIVE = "𝙸'𝙼 𝚂𝚃𝙸𝙻𝙻 𝙰𝙻𝙸𝚅𝙴...🙂" 
 REPO = "<b>𝙽𝙾𝚃 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙵𝙾𝚁 𝚈𝙾𝚄....🥲</b>"
 CHANNEL = "<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› <a href='https://t.me/MultiiFliX'>𝙼𝚄𝙻𝚃𝙸𝙵𝙻𝙸𝚇</a></b>"
-AJAX = "<b>𝙱𝙾𝚃 ›› <a href='https://t.me/Auto_FilteriBot'>𝑲𝒚𝒍𝒊𝒆 𝑱𝒆𝒏𝒏𝒆𝒓</a></b>"
 # -- Constants End -- #
 
 
