@@ -9,10 +9,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "𝙸'𝙼 𝚂𝚃𝙸𝙻𝙻 𝙰𝙻𝙸𝚅𝙴...🙂" 
-REPO = "𝙽𝙾𝚃𝙴:-
- -𝑲𝒚𝒍𝒊𝒆 𝑱𝒆𝒏𝒏𝒆𝒓 𝙸𝚂 𝙰 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃
- -𝚂𝙸𝙼𝙿𝙻𝙴 𝚁𝙴𝙿𝙾 
-        <a href=https://github.com/EvamariaTG/EvaMaria>Eva Maria</a>"
+REPO = "<b>𝙽𝙾𝚃 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙵𝙾𝚁 𝚈𝙾𝚄....🥲</b>"
 CHANNEL = "<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› <a href='https://t.me/MultiiFliX'>𝙼𝚄𝙻𝚃𝙸𝙵𝙻𝙸𝚇</a></b>"
 # -- Constants End -- #
 
@@ -46,6 +43,8 @@ async def channel(_, message):
     await message.reply_text(CHANNEL)
 
 
-
+@Client.on_message(filters.command("bot", COMMAND_HAND_LER) & f_onw_fliter)
+async def bot(_, message):
+    await message.reply_text(BOT)
 
 
