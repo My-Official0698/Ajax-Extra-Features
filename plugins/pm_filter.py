@@ -1424,7 +1424,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("CAACAgUAAxkBAAIEtWJwm0G29NQRkPU1rz2OyG0thnynAAK3AQACqzBhVAqV-0nmn4oSHgQ")
+        k = await msg.reply("I couldn't find any movie in that name...🥴")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -1465,7 +1465,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("CAACAgUAAxkBAAIEtWJwm0G29NQRkPU1rz2OyG0thnynAAK3AQACqzBhVAqV-0nmn4oSHgQ",
+    await msg.reply("I couldn't find anything related...🤕\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 async def manual_filters(client, message, text=False):
