@@ -238,12 +238,12 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.", show_alert=True)
+        return await query.answer("𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱 , 𝗗𝗼𝗻'𝘁 𝗧𝗮𝗸𝗲 𝗼𝘁𝗵𝗲𝗿𝘀 𝗣𝗿𝗼𝗽𝗲𝗿𝘁𝘆...😁 𝗦𝗲𝗮𝗿𝗰𝗵 𝘆𝗼𝘂𝗿 𝗢𝘄𝗻....😍", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("𝐋𝐢𝐧𝐤 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 𝐊𝐢𝐧𝐝𝐥𝐲 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧 🙂.", show_alert=True)
+        return await query.answer("𝐘𝐨𝐮𝐫 𝐓𝐢𝐦𝐞 𝐡𝐚𝐬 𝐞𝐧𝐝𝐞𝐝..🙂.. 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧....😴", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 𝙾𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴...💤')
     k = await manual_filters(bot, query.message, text=movie)
