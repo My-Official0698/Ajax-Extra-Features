@@ -151,14 +151,14 @@ async def give_filter(client,message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.", show_alert=True)
+        return await query.answer("𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱 , 𝗗𝗼𝗻'𝘁 𝗧𝗮𝗸𝗲 𝗼𝘁𝗵𝗲𝗿𝘀 𝗣𝗿𝗼𝗽𝗲𝗿𝘁𝘆...😁 𝗦𝗲𝗮𝗿𝗰𝗵 𝘆𝗼𝘂𝗿 𝗢𝘄𝗻....😍", show_alert=True)
     try:
         offset = int(offset)
     except:
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer("𝐋𝐢𝐧𝐤 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 𝐊𝐢𝐧𝐝𝐥𝐲 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧 🙂.", show_alert=True)
+        await query.answer("𝐘𝐨𝐮𝐫 𝐓𝐢𝐦𝐞 𝐡𝐚𝐬 𝐞𝐧𝐝𝐞𝐝..🙂.. 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧....😴", show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -195,9 +195,9 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/MultiiFliX'),
-            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐇𝐔𝐁⚡', url='https://t.me/MoviesHub_preDVD'),
-            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒 𝐋𝐈𝐍𝐊𝐒 🌟', url='https://t.me/MFX_SeriesLinKs')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/MoviesHub_preDVD'),
+            InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/MFX_SeriesLinKs')
         ]
     )
 
@@ -1359,9 +1359,9 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/MultiiFliX'),
-            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐇𝐔𝐁⚡', url='https://t.me/MoviesHub_preDVD'),
-            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒 𝐋𝐈𝐍𝐊𝐒 🌟', url='https://t.me/MFX_SeriesLinKs')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/MoviesHub_preDVD'),
+            InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/MFX_SeriesLinKs')
         ]
     )
 
