@@ -193,6 +193,14 @@ async def next_page(bot, query):
             for file in files
         ]
 
+    btn.insert(0,
+        [
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐇𝐔𝐁⚡', url='https://t.me/MoviesHub_preDVD'),
+            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒 𝐋𝐈𝐍𝐊𝐒 🌟', url='https://t.me/MFX_SeriesLinKs')
+        ]
+    )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -1348,6 +1356,14 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐇𝐔𝐁⚡', url='https://t.me/MoviesHub_preDVD'),
+            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒 𝐋𝐈𝐍𝐊𝐒 🌟', url='https://t.me/MFX_SeriesLinKs')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
