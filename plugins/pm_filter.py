@@ -195,7 +195,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('ᴀɴɪᴍᴇ ᴡᴏʀʟᴅ', url='https://t.me/AnimeWorld_MFX'),
             InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/MoviesHub_preDVD'),
             InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/MFX_SeriesLinKs')
         ]
@@ -1359,7 +1359,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/MultiiFliX'),
+            InlineKeyboardButton('ᴀɴɪᴍᴇ ᴡᴏʀʟᴅ', url='https://t.me/AnimeWorld_MFX'),
             InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/MoviesHub_preDVD'),
             InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/MFX_SeriesLinKs')
         ]
