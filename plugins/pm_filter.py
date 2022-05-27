@@ -254,6 +254,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             k = await query.message.edit('💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌 \n\n\nʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɴᴇᴡʟʏ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇ??... ᴛʜᴇɴ ᴄᴋᴇᴄᴋ ᴏᴜᴛ ᴀᴛ <a href=https://t.me/MoviesHub_preDVD>ᴍᴏᴠɪᴇꜱ ʜᴜʙ</a>')
+            disable_web_page_preview=True,
             await asyncio.sleep(10)
             await k.delete()
 
