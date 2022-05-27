@@ -253,7 +253,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌 \n› ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ')
+            k = await query.message.edit('💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌 \nʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɴᴇᴡʟʏ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇ??... ᴛʜᴇɴ ᴄᴋᴇᴄᴋ ᴏᴜᴛ ᴀᴛ <a href=https://t.me/MoviesHub_preDVD>ᴍᴏᴠɪᴇꜱ ʜᴜʙ</a>')
             await asyncio.sleep(10)
             await k.delete()
 
