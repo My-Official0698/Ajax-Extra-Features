@@ -196,7 +196,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton('ᴀɴɪᴍᴇ ᴡᴏʀʟᴅ', url='https://t.me/AnimeWorlds_02'),
-            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/preDVD_HUB'),
+            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/preDVDMoviesHUB'),
             InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/SeriesClub_01')
         ]
     )
@@ -253,7 +253,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌 \n\n @preDVD_HUB')
+            k = await query.message.edit('💌 ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ 💌 \n\nꜰᴏʀ ʟᴀᴛᴇꜱᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ ᴊᴏɪɴ @preDVDMoviesHUB')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -1360,7 +1360,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
             InlineKeyboardButton('ᴀɴɪᴍᴇ ᴡᴏʀʟᴅ', url='https://t.me/AnimeWorlds_02'),
-            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/preDVD_HUB'),
+            InlineKeyboardButton('ᵖʳᵉᴅᴠᴅ', url='https://t.me/preDVDMoviesHUB'),
             InlineKeyboardButton('ꜱᴇʀɪᴇꜱ ʟɪɴᴋꜱ', url='https://t.me/SeriesClub_01')
         ]
     )
